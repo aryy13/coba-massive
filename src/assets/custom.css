@@ -1,0 +1,250 @@
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid white;
+    color:black;
+}
+
+.margin-custom-tp {
+    margin-top: -200px;
+}
+
+.margin-custom-tp2 {
+    margin-top: -650px;
+}
+
+.margin-custom-tp3 {
+    margin-top: -550px;
+}
+
+.margin-custom-tp4 {
+    margin-top: -100px;
+}
+
+.margin-custom-tp5 {
+    margin-top: -150px;
+}
+
+.btn-custom-wd {
+    width: 200px;
+}
+
+.full-page {
+    display: flex; 
+}
+
+.fs-custom {
+    font-size: 3rem;
+}
+
+.fs-custom2 {
+    font-size: 2.5rem;
+}
+
+.fs-custom3 {
+    font-size: 1.5rem;
+}
+
+.margin-custom-lf {
+    margin-left: 150px;
+}
+
+.margin-custom-lf2 {
+    margin-left: 80px;
+}
+
+.margin-custom-lf3 {
+    margin-left: 200px;
+}
+
+.margin-custom-lf4 {
+    margin-left: 250px;
+}
+
+.mx-custom {
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.m-cust-rg {
+    margin-right: 100px;
+}
+
+.m-cust-rg2 {
+    margin-right: 80px;
+}
+
+.m-cust-rg3 {
+    margin-right: 20px;
+}
+
+.m-cust-rg4 {
+    margin-right: 5px;
+}
+
+.m-cust-rg5 {
+    margin-right: 150px;
+}
+
+.m-cust-tp {
+    margin-top: 100px;
+}
+
+.m-cust-tp3 {
+    margin-top: 150px;
+}
+
+.m-cust-tp2 {
+    margin-top: 10px;
+}
+
+.m-cust-tp4 {
+    margin-top: 30px;
+}
+
+.m-cust-tp5 {
+    margin-top: 180px;
+}
+
+
+
+
+.rounded-cust {
+    border-radius: 5px;
+}
+
+.card-size {
+    width: 400px;
+    height: 250px;
+}
+
+
+.shadow-cust {
+    box-shadow: 15px 15px 0px 0px rgba(44, 39, 41, 0.25);
+}
+
+.card-size2 {
+    width: 1100px;
+    height: 500px;
+}
+
+.card-size2a {
+    width: 1100px;
+    height: 700px;
+}
+
+.border-cust {
+    border: 2px solid blue; 
+}
+
+.card-size3 {
+    width: 500px;
+}
+
+.card-size4 {
+    width: 400px;
+    height: 525px;
+}
+
+.card-size5 {
+    width: 500px;
+    height: 200px;
+}
+
+.btn-end-cust {
+    margin-left: 300px;
+    margin-top: 350px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .input-custom {
+    width: 100%; 
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 40px;
+  }
+
+  .input-custom2 {
+    width: 100%; 
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 100px;
+  }
+
+  .input-custom3 {
+    width: 150px; 
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 40px;
+  }
+
+  .btn-custom {
+    width:80px;
+    height: 30px; 
+    border-radius: 8px;
+    border:0cap;
+    box-shadow: 1px solid grey;
+    transition: background-color 0.3s ease;
+    background-color: #ffc107;
+    float:right;
+    margin-left: auto;
+    
+  }
+
+  .btn-custom-chat {
+    width:200px;
+    border-radius: 8px;
+    border:0cap;
+    box-shadow: 1px solid grey;
+    transition: background-color 0.3s ease;
+    background-color: #ffc107;
+    float:right;
+    margin-left: auto;
+    
+  }
+
+  .btn-custom:hover {
+    background-color: white;
+    
+  }
+
+  .box {
+    width: 90%;
+    height: 720px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F7F6F5;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+  }
+
+  .upload-custom {
+    width: 50%;
+    background-color: white;
+  }
+
+  .card-chat {
+    width: 80%;
+  }
+
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table thead {
+    order: -1;
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fa; /* Warna latar kepala data */
+  }
+  
+  .table th {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #dee2e6; /* Warna garis batas */
+  }
+  
+  .table td {
+    border: 1px solid #dee2e6; /* Warna garis batas */
+    padding: 8px;
+  }
