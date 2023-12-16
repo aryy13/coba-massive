@@ -14,12 +14,12 @@ const Profile = () => {
             <div className="row no-gutters">
               <div className="col-md-4 col-sm-12 bg-light pt-5">
                 <img src="./ds.png" width="400px" height="300px" class="card-img  " alt="..." />
-                <Link to="/Editbim">
+              
                   <button class="btn btn-warning rounded-pill btn-primary fw-bold m-5 btn-md text-light" type="button">
                     Edit Profile
                   </button>
-                </Link>
-                <Link to="/beranda">
+               
+                <Link to="/">
                   <button class="btn btn-warning rounded-pill btn-primary fw-bold btm-md text-light" type="button">
                     Log Out
                   </button>

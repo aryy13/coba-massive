@@ -17,7 +17,7 @@ const MhsBeranda = () => {
 
             <Link to ="/">
                 <li className="nav-item m-2">
-                    <a className="nav-link active text-white" aria-current="page" href="#"> Dahboard</a>
+                    <a className="nav-link active text-white" aria-current="page" href="#"> Dashboard</a>
                 </li>
               </Link>
                 <Link to="/kalender">

@@ -248,3 +248,23 @@
     border: 1px solid #dee2e6; /* Warna garis batas */
     padding: 8px;
   }
+
+  .table-width {
+    width: 200px; 
+    height: 20px; 
+    margin-bottom: 10px;
+  }
+
+  .table-width2 {
+    width: 10px; 
+    height: 20px; 
+    margin-bottom: 10px;
+  }
+
+  .table-width3{
+    width: 100%; 
+    height: 20px; 
+    margin-bottom: 10px;
+  }
+
+  

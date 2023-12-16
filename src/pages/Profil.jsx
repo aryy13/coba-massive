@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import Formprofile from '../components/Formprofile';
 
 
 const Profil = () => {
@@ -18,7 +19,7 @@ const Profil = () => {
 
             <Link to ="/">
                 <li className="nav-item m-2">
-                    <a className="nav-link text-white" aria-current="page" href="#"> Dahboard</a>
+                    <a className="nav-link text-white" aria-current="page" href="#"> Dashboard</a>
                 </li>
               </Link>
                 <Link to="/kalender">
@@ -50,31 +51,45 @@ const Profil = () => {
         </div>
         </header> 
 
-        <section> 
-    <div className="container m-cust-tp3">
-    <div className="card mb-3 card-size2 border-cust">
-  <div className="row no-gutters">
-    <div className="col-md-4 col-sm-12 bg-primary">
-      <img src="./gambar8.png"  width="400px" height="500px" class="card-img" alt="..."/>
-    </div>
-    <div className="col-md-8 col-sm-12 p-5">
-      <div className="card-body justify-content-center">
-      
-      <div className="row">
-        <div className="col-md-3"> 
-       <label for="field" className="label"> Npm </label>
-       <input type="text"> </input>
+     
+        <section>
+        <div className="container m-cust-tp3">
+          <div className="card mb-3 card-size1">
+            <div className="row no-gutters">
+              <div className="col-md-4 col-sm-12 bg-light pt-5">
+                <img src="./ds.png" width="400px" height="300px" class="card-img  " alt="..." />
+                
+                  <button class="btn btn-warning rounded-pill btn-primary fw-bold m-5 btn-md text-light" type="button">
+                    Edit Profile
+                  </button>
+          
+                <Link to="/">
+                  <button class="btn btn-warning rounded-pill btn-primary fw-bold btm-md text-light" type="button">
+                    Log Out
+                  </button>
+                </Link>
+              </div>
+
+              <div className="col-md-8 col-sm-12 p-5">
+                <div className="card-body justify-content-center bg-primary rounded-4 text-light">
+                  <div className="card-body">
+                    <Formprofile />
+                  </div>
+                  <button className="btn btn-md btn-warning rounded-pill fw-bold   " type="button">
+                    <a className="text-white text-decoration-none" href="/BerandaMhs">
+                      Submit
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
         
 
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    </section>
+       
        
         <div> 
             <Footer/>

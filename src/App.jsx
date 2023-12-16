@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Beranda from './pages/Beranda';
 import Bimbingan from './pages/Bimbingan';
-import Kalender from './pages/kalender';
+import Kalender from './pages/Kalender';
 import Profil from './pages/Profil';
 import Repository from './pages/Repository';
 import Chat from './pages/Chat';
@@ -15,7 +15,7 @@ import Editbim from './pages/Editbim';
 import KalenderDosen from './pages/KalenderDosen';
 import DosenBeranda from './pages/DosenBeranda';
 import Chatdosen from './pages/Chatdosen';
-
+import JadwalBimbingan from './pages/JadwalBimbingan';
 import Profile from './pages/Profile';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
           <Route path="/KalenderDosen" element={<KalenderDosen />} />
           <Route path="/DosenBeranda" element={<DosenBeranda />} />
           <Route path="/Chatdosen" element={<Chatdosen />} />
-
+          <Route path="/JadwalBimbingan" element={<JadwalBimbingan />} />
           <Route path="/Profile" element={<Profile />} />
         </Routes>
       </Router>

@@ -13,7 +13,7 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNav">   
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item m-2">
-                    <a className="nav-link active text-white" aria-current="page" href="#"> Dahboard</a>
+                    <a className="nav-link active text-white" aria-current="page" href="#"> Dashboard</a>
                 </li>
 
                 <li className="nav-item m-2">

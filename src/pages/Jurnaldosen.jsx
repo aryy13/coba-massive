@@ -19,7 +19,7 @@ const Jurnaldosen = () => {
             <Link to="/DosenBeranda">
               <li className="nav-item m-2">
                 <a className="nav-link   text-white" href="#">
-                  Dasboard{' '}
+                  Dashboard{' '}
                 </a>
               </li>
             </Link>

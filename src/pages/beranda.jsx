@@ -18,20 +18,20 @@ const Beranda = () => {
 
             <Link to="/">
                 <li className="nav-item m-2">
-                    <a className="nav-link active text-white" aria-current="page" > Dahboard</a>
+                    <a className="nav-link active text-white" aria-current="page" > Dashboard</a>
                 </li> </Link>
                 
-                <Link to="/Kalender">
+                <Link to="/signin">
                 <li className="nav-item m-2">
                     <a className="nav-link text-white" href="#">Kalender </a>
                 </li> </Link>
 
-                <Link to="/Bimbingan">
+                <Link to="/signin">
                 <li className="nav-item m-2">
                     <a className="nav-link text-white" href="#">Bimbingan</a>
                 </li></Link>
 
-                <Link to="/Repository">
+                <Link to="/signin">
                 <li className="nav-item m-2">
                     <a className="nav-link text-white" href="#">E-Repository</a>
                 </li> </Link>

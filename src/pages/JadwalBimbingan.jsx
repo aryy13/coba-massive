@@ -1,12 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import FormBimbingan from "../components/FormBimbingan";
 
-const CreateBimbingan = () => {
+
+const JadwalBimbingan = () => {
     return (
         <>
-<header className="navbar navbar-expand-lg navbar-primary bg-primary p-2 shadow-sm fixed-top"> 
+
+        <header className="navbar navbar-expand-lg navbar-primary bg-primary p-2 shadow-sm fixed-top"> 
             <a className="navbar-brand text-white fw-bold" href= "/"> EDUVION </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls='navbarNav' aria-expanded="false"
               aria-label="Toggle navigation">
@@ -49,9 +50,9 @@ const CreateBimbingan = () => {
  </ul>
         </div>
         </header>
+       
 
-
-<section> 
+        <section> 
     <div className="container m-cust-tp3">
     <div className="card mb-3 card-size2a border-cust">
   <div className="row no-gutters">
@@ -60,14 +61,50 @@ const CreateBimbingan = () => {
     </div>
     <div className="col-md-8 col-sm-12 p-5">
       <div className="card-body">
-      <FormBimbingan/>
 
-      <Link to ="/JadwalBimbingan">
-      <div className='row mt-3'>
-        <button className='btn-custom' type="submit">simpan</button>
+      <table className="table table-stripped">
+        <tbody>
+            <tr> 
+                <td className="table-width" > <b>Tanggal </b> </td>
+                <td className="table-width2"> : </td>
+                <td className="table-width3"> 30 November 2023</td>
+            </tr>
+            <tr> 
+                <td className="table-width" > <b>Tahapan </b></td>
+                <td className="table-width2"> : </td>
+                <td className="table-width3"> bab 3</td>
+            </tr>
+            <tr> 
+                <td className="table-width" ><b> File  </b></td>
+                <td className="table-width2"> : </td>
+                <td className="table-width3"> </td>
+            </tr>
+            <tr> 
+                <td className="table-width" >  <b> Status File </b></td>
+                <td className="table-width2"> : </td>
+                <td className="table-width3"> Revisi</td>
+            </tr>
+        </tbody>
+      </table>
+       
+
+       <div className="row position">
+        <div className="col-md-3 m-cust-rg2">
+      <Link to ="/chat">
+        <button className="btn btn-md btn-warning rounded-pill  btn-custom-wd  m-cust-tp2 "type="button">
+                    <a className="text-white text-decoration-none"href ="login.jsx" > Chat Dosen </a> </button>
+      </Link>   
+      </div>
+      <div className="col-md-3">
+       <Link to ="/createBimbinganmhs">
+        <button className="btn btn-md btn-warning rounded-pill  btn-custom-wd  m-cust-tp2 "type="button">
+                    <a className="text-white text-decoration-none"href ="login.jsx" > Bimbingan baru </a> </button>
+      </Link>
+      </div>
+      </div>    
         
-        </div>
-       </Link>
+       
+      
        
        
  
@@ -78,8 +115,10 @@ const CreateBimbingan = () => {
 </div>
 </div>
     </section>
-    </>
+        </>
+
     );
+
 };
 
-export default CreateBimbingan; 
+export default JadwalBimbingan; 
