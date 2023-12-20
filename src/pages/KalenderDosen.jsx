@@ -60,13 +60,31 @@ const KalenderDosen = () => {
               <div class="card text-center card-size4 shadow-lg">
                 <div class="card-header bg-primary fs-custom3 text-white">Acara Mendatang</div>
                 <div class="card-body">
-                  <p class="card-text">tidak ada acara mendatang</p>
-                  <a href="#" class="btn btn-primary rounded-pill btn-end-cust">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="8 2 35 35" fill="none">
-                      <path d="M21 8.75V33.25" stroke="#F7F6F5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M8.75 21H33.25" stroke="#F7F6F5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </a>
+                <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px' }}>
+                   <div className="table-width" style={{ marginRight: '10px', fontWeight: 'bold' }}>
+                    Nama Mahasiswa
+                   </div>
+                  <div className="table-width2">:</div>
+                  <div className="table-width3"> Maya</div>
+                  </div>
+
+      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px' }}>
+        <div className="table-width" style={{ marginRight: '10px', fontWeight: 'bold' }}>
+          Hari/Tanggal
+        </div>
+        <div className="table-width2">:</div>
+        <div className="table-width3">Rabu, 20 Desember 2023</div>
+      </div>
+
+      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px' }}>
+        <div className="table-width" style={{ marginRight: '10px', fontWeight: 'bold' }}>
+         Waktu
+        </div>
+        <div className="table-width2">:</div>
+        <div className="table-width3"> 08.00 WIB </div>
+      </div>
+
+                 
                 </div>
               </div>
             </div>

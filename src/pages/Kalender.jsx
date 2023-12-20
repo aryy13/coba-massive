@@ -1,12 +1,20 @@
-import React from "react";
+
+import React, { useState } from 'react';
 import Footer from "../components/Footer";
 import { Link } from 'react-router-dom'; 
 import Calendar from "../components/Calendar";
 import Form from "../components/form";
-
-
+import DummyForm from "../components/DummyForm";
+import DummyTabel from '../components/DummyTable';
 
 const Kalender = () => {
+
+  const [tableData, setTableData] = useState([]);
+
+  const handleFormSubmit = (formData) => {
+      setTableData([...tableData, formData]);
+  };
+
    return (
         <>
 <header className="navbar navbar-expand-lg navbar-primary bg-primary p-2 shadow-sm fixed-top"> 
@@ -91,13 +99,7 @@ const Kalender = () => {
   </div>
   <div class="card-body">
    
-    <p class="card-text">tidak ada acara mendatang</p>
-    <a href="#" class="btn btn-primary rounded-pill btn-end-cust">
-    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="8 2 35 35" fill="none">
-<path d="M21 8.75V33.25" stroke="#F7F6F5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.75 21H33.25" stroke="#F7F6F5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-    </a>
+  <DummyTabel data={tableData}/>
   </div>
   
 </div>
@@ -125,12 +127,14 @@ const Kalender = () => {
 </defs>
 </svg>
      Buat Jadwal Acara</h4>
-
-
 </div>
-    <Form /> 
+     <DummyForm onSubmit={handleFormSubmit}/>
+     </div>
+
+
+     
   </div>
-  </div>
+
 </section>
 
         

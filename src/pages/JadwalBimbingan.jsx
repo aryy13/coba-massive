@@ -67,7 +67,7 @@ const JadwalBimbingan = () => {
             <tr> 
                 <td className="table-width" > <b>Tanggal </b> </td>
                 <td className="table-width2"> : </td>
-                <td className="table-width3"> 30 November 2023</td>
+                <td className="table-width3"> 20 Desember 2023</td>
             </tr>
             <tr> 
                 <td className="table-width" > <b>Tahapan </b></td>
@@ -77,12 +77,17 @@ const JadwalBimbingan = () => {
             <tr> 
                 <td className="table-width" ><b> File  </b></td>
                 <td className="table-width2"> : </td>
-                <td className="table-width3"> </td>
+                <td className="table-width3"> tugasArsitektur-SAP-3-Arsy.DOCX </td>
             </tr>
             <tr> 
                 <td className="table-width" >  <b> Status File </b></td>
                 <td className="table-width2"> : </td>
                 <td className="table-width3"> Revisi</td>
+            </tr>
+            <tr> 
+                <td className="table-width" >  <b> Dosen </b></td>
+                <td className="table-width2"> : </td>
+                <td className="table-width3"> Wahyu S. Kom </td>
             </tr>
         </tbody>
       </table>

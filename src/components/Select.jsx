@@ -20,8 +20,8 @@ const Select = () => {
     
           <select value={selectedOption} onChange={handleSelectChange} className='input-custom'>
             <option value="" disabled>Pilih salah satu</option>
-            <option value="option1">Opsi 1</option>
-            <option value="option2">Opsi 2</option>
+            <option value="option1">Wahyu S.Kom</option>
+            <option value="option2">Dian S.Kom</option>
           </select>
     
       </form>

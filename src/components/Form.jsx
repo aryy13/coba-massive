@@ -107,12 +107,9 @@ const handleChangeInputAcara = (event) => {
         <div className="row mb-3">
         <label className= "col-sm-2 col-form-label" >
           Metode: </label>
+
+          <div className='row mb-3'>
           <div className='col-sm-10'>
-          <RadioButton /> 
-          </div>
-        </div>
-  
-        <div className="row mb-3">
         <label className= "col-sm-2 col-form-label" >
           Lokasi: </label>
           <div className="col-sm-10">
@@ -138,7 +135,8 @@ const handleChangeInputAcara = (event) => {
         <div className='row mt-3'>
         <button className='btn-custom' type="submit">Kirim</button>
         </div>
-       
+       </div>
+       </div>
        
         
      

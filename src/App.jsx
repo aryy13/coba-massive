@@ -17,6 +17,10 @@ import DosenBeranda from './pages/DosenBeranda';
 import Chatdosen from './pages/Chatdosen';
 import JadwalBimbingan from './pages/JadwalBimbingan';
 import Profile from './pages/Profile';
+import Kalendar from './pages/Kalendar';
+import Dashboard from './pages/Dashboard';
+import Login from './pages/Login';
+
 
 function App() {
   return (
@@ -41,6 +45,9 @@ function App() {
           <Route path="/Chatdosen" element={<Chatdosen />} />
           <Route path="/JadwalBimbingan" element={<JadwalBimbingan />} />
           <Route path="/Profile" element={<Profile />} />
+          <Route path="/Kalendar2" element={<Kalendar />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </Router>
     </>
